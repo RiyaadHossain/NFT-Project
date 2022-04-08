@@ -10,6 +10,22 @@
     background-color: #333458;
     color: aliceblue;
 }
+.container{
+    padding: 0 5%;
+}
 .m{
     margin-left: 7px;
+}
+.colored{
+    color: #F8D11B;
+}
+.py-10{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+hr{
+    margin: 40px 0;
+    border: none;
+    background-color: #E0E0E0;
+    height: 1.5px;
 }
