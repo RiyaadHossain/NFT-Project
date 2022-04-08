@@ -58,7 +58,7 @@
   width: 400px;
 }
 
-/* What Exist Section */
+/* What Exist Section && Prosduction Section */
 .cards{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -94,4 +94,23 @@
 }
 .card-text{
   padding: 14px;
+}
+
+/* Product Section */
+.cards-production{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.production-card-text img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.production-card-text{
+  display: flex;
+  padding: 15px;
+}
+.production-card-text img{
+  margin-right: 10px;
 }

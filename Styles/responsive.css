@@ -2,14 +2,23 @@
     .cards{
         grid-template-columns: repeat(3, 1fr);
       }
+      
 }
 @media screen and (max-width: 1080px) {
-    .cards{
+    .cards,.cards-production{
         grid-template-columns: repeat(2, 1fr);
       }
 }
 @media screen and (max-width: 710px) {
-    .cards{
+    .cards, .cards-production{
         grid-template-columns: repeat(1, 1fr);
       }
+}
+@media screen and (max-width: 570px) {
+    .card-header{
+        flex-direction: column;
+    }
+    .card-head{
+        text-align: center;
+    }
 }
